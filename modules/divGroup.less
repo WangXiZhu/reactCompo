@@ -1,0 +1,27 @@
+/* divitemgroup.less*/
+@antColor: #58c6f7;
+.divs-wrapper{
+  margin-top: 5px;
+  display: inline-block;
+  width: 100%;
+  .item{
+    display: inline-block;
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .error-item{
+    border: 1px solid #ccc;
+    margin: 0 18px 0 0;
+    width: 21%;
+  }
+  .item-checked{
+    border: 1px solid @antColor;
+    color: @antColor;
+  }
+}
